@@ -25,7 +25,7 @@ public class M03 {
         
         System.out.println("El resultado es: " + resultado);
         // TODO code application logic here
-        n1 = 8
+        n1 = 8;
     }
     
 }
