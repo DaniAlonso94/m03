@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package m03;
+package M03;
 
      import java.util.Scanner;
 
@@ -28,17 +28,26 @@ Scanner teclado = new Scanner(System.in);
         int n2;
         int resultado;
         
-        System.out.println("Introduce los dos operandos y el resultado");
+        System.out.println("Introduce un numero");
         n1 = teclado.nextInt();
         
-        System.out.println("Introduce los dos operandos y el resultado");
+        System.out.println("Introduce otro numero");
         n2 = teclado.nextInt();
+        
+        System.out.println("Introduce el resultado de la suma");
+        resultado = teclado.nextInt();
+        
+        if (n1 + n2 == resultado) {
+            System.out.println("correcto");
+        } else {
+            System.out.println("Error");
+            
+        } 
         
         resultado = n1 + n2;
         
         System.out.println("El resultado es: " + resultado);
         // TODO code application logic here
-        n1 = 8;
     }
     
 }
